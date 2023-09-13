@@ -1,6 +1,6 @@
 body,div,ul,ol,li,h1,h2,p{
-	margin:0;
-	padding:0;
+	margin:0 0;
+	padding:0 0;
 }
 
 img {
@@ -18,9 +18,7 @@ h1,h2 {
 }
 
 body {
-  font-size:small;
-  font:x-small;
-	background:#000000;
+  background:#000000;
 }
 
 html{
@@ -44,9 +42,11 @@ a{
 div.section {
 	width: 100%;
 	/* max-width: 1900px; */
-	height: 800px;
+	height: 1500px;
 	position: relative;
 	margin: 0 auto;
+
+	background-size: cover;
 
 	color: #FFFFFF;
 	text-shadow:
@@ -63,21 +63,21 @@ div.section {
 }
 
 div.section h1{
-	font-size:48px;
+	font-size: 500%;
 }
 
 div.section h2{
-	font-size: xx-large;
+	font-size: 300%;
 }
 
 div.section p{
-	font-size: 12pt;
-	width: 450px;
+	font-size: 150%;
+	width: 50%;
 	line-height: 2;
 }
 
 #section0 {
-	background: url(./index-pic/) no-repeat 0px 0px;
+	background: url(./index-pic/1.png) no-repeat 0px 0px;
 	background-size: cover;
 }
 
@@ -104,13 +104,13 @@ div.section p{
 ul#topNav {
 	position: absolute;
 	left: 8%;
-	top: 230px;
+	top: 250px;
 
 }
 ul#topNav li {
 	display: inline;
 	margin-right: 40px;
-	font-size: 16pt;
+	font-size: 200%;
 	line-height: 30px;
 }
 ul#topNav a {
@@ -125,51 +125,47 @@ ul#topNav a {
 #section0 h2{
 	position: absolute;
 	left: 10%;
-	top: 140px;
+	top: 170px;
 }
 
 #section1 h2 {
 	position: absolute;
-	left: 14%;
+	left: 10%;
 	top: 230px;
 }
 #section1 p {
 	position: absolute;
-	left: 14%;
+	left: 10%;
 	top: 370px;
 }
 
 #section2 h2 {
 	position: absolute;
-	left: 58%;
+	left: 50%;
 	top: 250px;
 }
 #section2 p {
 	position: absolute;
-	left: 58%;
+	left: 50%;
 	top: 390px;
 }
 
 #section3 h2 {
 	position: absolute;
-	left: 14%;
+	left: 10%;
 	top: 230px;
 }
 #section3 p {
 	position: absolute;
-	left: 14%;
+	left: 10%;
 	top: 370px;
 }
 
-#section4 h2{
-	position: absolute;
-	left: 45%;
-	top: 220px;
-}
 #section4 h3{
 	position: absolute;
-	left: 45%;
+	left: 40%;
 	top: 320px;
+	font-size: 200%;
 	color: #FFFFFF;
 	text-shadow:
     1px 1px #000,
@@ -181,22 +177,17 @@ ul#topNav a {
     -1px 0px #000,
     0px -1px #000;
 }
-#section4 a#me{
-	position: absolute;
-	left: 46%;
-	top: 260px;
-	font-size: 25px;
-}
 #section4 ul{
 	position: absolute;
-	left: 47%;
-	top: 360px;
+	left: 30%;
+	top: 390px;
+	font-size: 200%;
 }
 
 ul#nav {
 	position: fixed;
 	left: 20px;
-	top: 410px;
+	bottom: 10%;
 }
 ul#nav li {
 /*	display: inline; */

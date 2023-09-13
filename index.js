@@ -1,5 +1,7 @@
 var minHeight = 500;
 
+var isPhone = false;
+
 var scrollSpeed = 1000;	
 
 var originBgPosition = new Object();	
@@ -7,6 +9,11 @@ var originBgPosition = new Object();
 $(document).ready(function(){
 
 	$('a').focus(function(e){this.blur()});
+
+	var UA = navigator.userAgent;
+	if(UA.indexOf('iPhone') > -1 || UA.indexOf('Android') > -1){
+		isPhone = true;
+	}
 
 	$(".section").each(function(i){
 		var _thisID = $(this).attr("id");
@@ -38,7 +45,7 @@ function parallaxScroll (event) {
 
 	if(event.type == "resize"){
 
-		if($(window).height() > minHeight){
+		if($(window).height() > minHeight && !isPhone){
 			$(".section").height($(window).height() + 50);
 		}
 	}
@@ -69,7 +76,8 @@ function parallaxScroll (event) {
 
 		newBgPosition["section"]["y"] = originBgPosition[_thisID]["section"]["y"] + scrollTop * 0.2;
 	
-		$(this).css("background-position", newBgPosition["section"]["x"] + "px " + newBgPosition["section"]["y"] + "px");
+		//$(this).css("background-position", newBgPosition["section"]["x"] + "px " + newBgPosition["section"]["y"] + "px");
+		$(this).css("background-position", "center " + newBgPosition["section"]["y"] + "px");
 	});
 }
 
