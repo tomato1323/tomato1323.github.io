@@ -131,34 +131,34 @@ ul#topNav a {
 #section1 h2 {
 	position: absolute;
 	left: 10%;
-	top: 20%;
+	top: 10%;
 }
 #section1 p {
 	position: absolute;
 	left: 10%;
-	top: 40%;
+	top: 30%;
 }
 
 #section2 h2 {
 	position: absolute;
 	left: 50%;
-	top: 20%;
+	top: 10%;
 }
 #section2 p {
 	position: absolute;
 	left: 50%;
-	top: 40%;
+	top: 30%;
 }
 
 #section3 h2 {
 	position: absolute;
 	left: 10%;
-	top: 20%;
+	top: 10%;
 }
 #section3 p {
 	position: absolute;
 	left: 10%;
-	top: 40%;
+	top: 30%;
 }
 
 #section4 h3{
@@ -179,9 +179,9 @@ ul#topNav a {
 }
 #section4 ul{
 	position: absolute;
-	left: 30%;
+	left: 20%;
 	top: 20%;
-	width: 40%;
+	width: 60%;
 	font-size: 150%;
 }
 

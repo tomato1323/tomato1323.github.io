@@ -13,6 +13,8 @@ $(document).ready(function(){
 	var UA = navigator.userAgent;
 	if(UA.indexOf('iPhone') > -1 || UA.indexOf('Android') > -1){
 		isPhone = true;
+		$(".section").height($(window).height() * 2 / 3);
+		$("#section0").height($(window).height());
 	}
 
 	$(".section").each(function(i){
