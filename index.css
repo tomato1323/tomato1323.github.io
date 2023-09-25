@@ -104,7 +104,7 @@ div.section p{
 ul#topNav {
 	position: absolute;
 	left: 8%;
-	top: 250px;
+	top: 40%;
 
 }
 ul#topNav li {
@@ -120,51 +120,51 @@ ul#topNav a {
 #section0 h1 {
 	position: absolute;
 	left: 8%;
-	top: 80px;
+	top: 5%;
 }
 #section0 h2{
 	position: absolute;
 	left: 10%;
-	top: 170px;
+	top: 20%;
 }
 
 #section1 h2 {
 	position: absolute;
 	left: 10%;
-	top: 230px;
+	top: 20%;
 }
 #section1 p {
 	position: absolute;
 	left: 10%;
-	top: 370px;
+	top: 40%;
 }
 
 #section2 h2 {
 	position: absolute;
 	left: 50%;
-	top: 250px;
+	top: 20%;
 }
 #section2 p {
 	position: absolute;
 	left: 50%;
-	top: 390px;
+	top: 40%;
 }
 
 #section3 h2 {
 	position: absolute;
 	left: 10%;
-	top: 230px;
+	top: 20%;
 }
 #section3 p {
 	position: absolute;
 	left: 10%;
-	top: 370px;
+	top: 40%;
 }
 
 #section4 h3{
 	position: absolute;
 	left: 40%;
-	top: 320px;
+	top: 5%;
 	font-size: 200%;
 	color: #FFFFFF;
 	text-shadow:
@@ -180,8 +180,9 @@ ul#topNav a {
 #section4 ul{
 	position: absolute;
 	left: 30%;
-	top: 390px;
-	font-size: 200%;
+	top: 20%;
+	width: 40%;
+	font-size: 150%;
 }
 
 ul#nav {
