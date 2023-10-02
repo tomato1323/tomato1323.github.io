@@ -78,22 +78,22 @@ div.section p{
 
 #section0 {
 	background: url(./index-pic/1.png) no-repeat 0px 0px;
-	background-size: cover;
+	background-size: auto 100%;
 }
 
 #section1 {
 	background: url(./index-pic/2.png) no-repeat 0px 0px;
-	background-size: cover;
+	background-size: 100% auto;
 }
 
 #section2 {
 	background: url(./index-pic/3.png) no-repeat 0px 0px;
-	background-size: cover;
+	background-size: auto 100%;
 }
 
 #section3 {
 	background: url(./index-pic/4.png) no-repeat 0px 0px;
-	background-size: cover;
+	background-size: auto 100%;
 }
 
 #section4{
