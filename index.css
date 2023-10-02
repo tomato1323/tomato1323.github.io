@@ -78,27 +78,31 @@ div.section p{
 
 #section0 {
 	background: url(./index-pic/1.png) no-repeat 0px 0px;
-	background-size: auto 100%;
+	background-size: cover;
+	height: 100%;
 }
 
 #section1 {
 	background: url(./index-pic/2.png) no-repeat 0px 0px;
-	background-size: 100% auto;
+	background-size: cover;
 }
 
 #section2 {
 	background: url(./index-pic/3.png) no-repeat 0px 0px;
-	background-size: auto 100%;
+	background-size: cover;
+	height: 100%;
 }
 
 #section3 {
 	background: url(./index-pic/4.png) no-repeat 0px 0px;
-	background-size: auto 100%;
+	background-size: cover;
+	height: 100%;
 }
 
 #section4{
 	background: url(./index-pic/5.png) no-repeat 0px 0px;
 	background-size: cover;
+	height: 100%;
 }
 
 ul#topNav {
