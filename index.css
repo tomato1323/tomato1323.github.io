@@ -1,31 +1,15 @@
-body,div,ul,ol,li,h1,h2,p{
+*{
 	margin:0 0;
 	padding:0 0;
+
+	font-size: 62.5%;
 }
 
-img {
-	border:0;
-}
-
-ol,ul {
+ul{
 	list-style:none;
 }
 
-h1,h2 {
-	font-size:100%;
-	font-weight: bold;
-	color: #FFFFFF;
-}
-
-body {
-  background:#000000;
-}
-
-html{
-	scroll-behavior: smooth;
-}
-
-a{
+h1, h2, h3, a, p, li, .bp{
 	outline: 0;
 	color: #FFFFFF;
 	text-shadow:
@@ -39,168 +23,67 @@ a{
     0px -1px #000;
 }
 
-div.section {
-	width: 100%;
-	/* max-width: 1900px; */
-	height: 1500px;
-	position: relative;
-	margin: 0 auto;
+h1{
+	padding: 0 5%;
 
+	font-size: clamp(2.5rem, calc(3rem + 0.625vw), 5.0rem);
+}
+h2{
+	padding: 0 3%;
+
+	font-size: clamp(2.0rem, calc(2rem + 0.625vw), 4.0rem);
+}
+h3{
+	padding: 0 3%;
+
+	font-size: clamp(2.0rem, calc(1.8rem + 0.625vw), 4.0rem);
+}
+a, .bp, p, li{
+	padding: 0 1%;
+
+	font-size: clamp(1.5rem, calc(1.5rem + 0.625vw), 4.0rem);
+}
+
+#topNav a{
+	text-decoration: none;
+}
+
+.section{
+	display: flex;
+	height: 100vh;
+	/* padding: 100%; */
+	align-items: center;
+  
+	background-attachment: fixed;
+	background-position: center;
 	background-size: cover;
-
-	color: #FFFFFF;
-	text-shadow:
-    1px 1px #000,
-    -1px 1px #000,
-    -1px -1px #000,
-    1px -1px #000,
-    1px 0px #000,
-    0px 1px #000,
-    -1px 0px #000,
-    0px -1px #000;
-	font-size:100%;
-	font-weight: bold;
+	background-repeat: no-repeat;
 }
-
-div.section h1{
-	font-size: 500%;
+.section budoux-ja{
+	width: 40vw;
 }
-
-div.section h2{
-	font-size: 300%;
+#section0{
+	background-image: url(./index-pic/1.png);
+	
+	justify-content: center;
 }
+#section1{
+	background-image: url(./index-pic/2.png);
 
-div.section p{
-	font-size: 150%;
-	width: 50%;
-	line-height: 2;
+	justify-content: right;
 }
+#section2{
+	background-image: url(./index-pic/3.png);
 
-#section0 {
-	background: url(./index-pic/1.png) no-repeat 0px 0px;
-	background-size: cover;
-	height: 100%;
+	justify-content: left;
 }
+#section3{
+	background-image: url(./index-pic/4.png);
 
-#section1 {
-	background: url(./index-pic/2.png) no-repeat 0px 0px;
-	background-size: cover;
+	justify-content: right;
 }
-
-#section2 {
-	background: url(./index-pic/3.png) no-repeat 0px 0px;
-	background-size: cover;
-	height: 100%;
-}
-
-#section3 {
-	background: url(./index-pic/4.png) no-repeat 0px 0px;
-	background-size: cover;
-	height: 100%;
-}
-
 #section4{
-	background: url(./index-pic/5.png) no-repeat 0px 0px;
-	background-size: cover;
-	height: 100%;
-}
+	background-image: url(./index-pic/5.png);
 
-ul#topNav {
-	position: absolute;
-	left: 8%;
-	top: 40%;
-
-}
-ul#topNav li {
-	display: inline;
-	margin-right: 40px;
-	font-size: 200%;
-	line-height: 30px;
-}
-ul#topNav a {
-	text-decoration: none;
-}
-
-#section0 h1 {
-	position: absolute;
-	left: 8%;
-	top: 5%;
-}
-#section0 h2{
-	position: absolute;
-	left: 10%;
-	top: 20%;
-}
-
-#section1 h2 {
-	position: absolute;
-	left: 10%;
-	top: 10%;
-}
-#section1 p {
-	position: absolute;
-	left: 10%;
-	top: 30%;
-}
-
-#section2 h2 {
-	position: absolute;
-	left: 50%;
-	top: 10%;
-}
-#section2 p {
-	position: absolute;
-	left: 50%;
-	top: 30%;
-}
-
-#section3 h2 {
-	position: absolute;
-	left: 10%;
-	top: 10%;
-}
-#section3 p {
-	position: absolute;
-	left: 10%;
-	top: 30%;
-}
-
-#section4 h3{
-	position: absolute;
-	left: 40%;
-	top: 5%;
-	font-size: 200%;
-	color: #FFFFFF;
-	text-shadow:
-    1px 1px #000,
-    -1px 1px #000,
-    -1px -1px #000,
-    1px -1px #000,
-    1px 0px #000,
-    0px 1px #000,
-    -1px 0px #000,
-    0px -1px #000;
-}
-#section4 ul{
-	position: absolute;
-	left: 20%;
-	top: 20%;
-	width: 60%;
-	font-size: 150%;
-}
-
-ul#nav {
-	position: fixed;
-	left: 20px;
-	bottom: 10%;
-}
-ul#nav li {
-/*	display: inline; */
-	margin: 0 10px;
-	font-size: xx-large;
-}
-ul#nav li a {
-	color: #FFFFFF;
-	opacity: 0.6;
-	text-decoration: none;
+	justify-content: center;
 }
