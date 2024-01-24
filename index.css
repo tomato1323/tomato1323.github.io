@@ -87,3 +87,39 @@ a, .bp, p, li{
 
 	justify-content: center;
 }
+
+@media screen and (max-width: 768px){
+	.section{
+	  height: 100vh;
+	  background-image: none;
+	}
+	.section::before{
+	  content: "";
+	  display: block;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  -webkit-transform: translate3d(0, 0, -1px);
+	  transform: translate3d(0, 0, -1px);
+	  width: 100%;
+	  min-height: 100%;
+	  -webkit-background-size: cover;
+	  background-size: cover;
+	  z-index: -1;
+	}
+	#section0::before{
+	  background-image: url(./index-pic/1.png);
+	}
+	#section1::before{
+		background-image: url(./index-pic/2.png);
+	}
+	#section2::before{
+		background-image: url(./index-pic/3.png);
+	}
+	#section3::before{
+		background-image: url(./index-pic/4.png);
+	}
+	#section4::before{
+		background-image: url(./index-pic/5.png);
+	}
+  }
