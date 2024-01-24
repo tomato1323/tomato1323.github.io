@@ -39,25 +39,25 @@ div.section p{
     font-size: 150%;
 }
 
-#section1, #section3, #section5{
+.black{
     background: white;
     color: #545454;
 }
-#section2, #section4{
+.white{
     background: black;
     color: white;
 }
 
-#section1 img, #section3 img, #section5 img{
+.black img{
     left: 1%;
 }
-#section1 p, #section3 p, #section5 p{
+.black p{
     right: 1%;
 }
 
-#section2 img, #section4 img{
+.white img{
     right: 1%;
 }
-#section2 p, #section4 p{
+.white p{
     left: 1%;
 }
