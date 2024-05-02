@@ -2,14 +2,10 @@
 	margin:0 0;
 	padding:0 0;
 
-	font-size: 62.5%;
+    font-size: 62.5%;
 }
 
-ul{
-	list-style:none;
-}
-
-h1, h2, h3, a, p, li, .bp{
+h1, h2, h3, h4, h5, a, p, li, .bp{
 	outline: 0;
 	color: #FFFFFF;
 	text-shadow:
@@ -44,82 +40,36 @@ a, .bp, p, li{
 	font-size: clamp(1.5rem, calc(1.5rem + 0.625vw), 4.0rem);
 }
 
-#topNav a{
-	text-decoration: none;
+.parallax-container{
+    height: 100vh;
+    min-height: 500px;
 }
 
-.section{
-	display: flex;
-	height: 100vh;
-	/* padding: 100%; */
-	align-items: center;
-  
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.contents{
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
-.section budoux-ja{
-	width: 40vw;
-}
-#section0{
-	background-image: url(./index-pic/1.png);
-	
-	justify-content: center;
-}
-#section1{
-	background-image: url(./index-pic/2.png);
-
-	justify-content: right;
-}
-#section2{
-	background-image: url(./index-pic/3.png);
-
-	justify-content: left;
-}
-#section3{
-	background-image: url(./index-pic/4.png);
-
-	justify-content: right;
-}
-#section4{
-	background-image: url(./index-pic/5.png);
-
-	justify-content: center;
+.contents budoux-ja{
+    width: 40%;
 }
 
-@media screen and (max-width: 768px){
-	.section{
-	  height: 100vh;
-	  background-image: none;
-	}
-	.section::before{
-	  content: "";
-	  display: block;
-	  position: fixed;
-	  top: 0;
-	  left: 0;
-	  -webkit-transform: translate3d(0, 0, -1px);
-	  transform: translate3d(0, 0, -1px);
-	  width: 100%;
-	  min-height: 100%;
-	  -webkit-background-size: cover;
-	  background-size: cover;
-	  z-index: -1;
-	}
-	#section0::before{
-	  background-image: url(./index-pic/1.png);
-	}
-	#section1::before{
-		background-image: url(./index-pic/2.png);
-	}
-	#section2::before{
-		background-image: url(./index-pic/3.png);
-	}
-	#section3::before{
-		background-image: url(./index-pic/4.png);
-	}
-	#section4::before{
-		background-image: url(./index-pic/5.png);
-	}
-  }
+#s0c{
+    justify-content: center;
+}
+
+#s1c{
+    justify-content: right;
+}
+
+#s2c{
+    justify-content: left;
+}
+
+#s3c{
+    justify-content: right;
+}
+
+#s4c{
+    justify-content: center;
+}
