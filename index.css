@@ -56,6 +56,20 @@ a, .bp, p, li{
 
 #s0c{
     justify-content: center;
+    align-items: flex-end;
+}
+#s0c h2{
+    outline: 0;
+	color: #000;
+	text-shadow:
+    1px 1px #FFFFFF,
+    -1px 1px #FFFFFF,
+    -1px -1px #FFFFFF,
+    1px -1px #FFFFFF,
+    1px 0px #FFFFFF,
+    0px 1px #FFFFFF,
+    -1px 0px #FFFFFF,
+    0px -1px #FFFFFF;
 }
 
 #s1c{
