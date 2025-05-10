@@ -26,3 +26,52 @@ h3{
 budoux-ja{
     color: #fff;
 }
+
+/* 非表示 */
+.is-hide {
+    display: none;
+}
+/* ローディング画面をフェードアウト */
+.fadeout-bg {
+    transition-property: opacity;
+    transition-delay: .9s;
+    transition-duration: .8s;
+    opacity: 0;
+    pointer-events: none;
+}
+/* ローダーをフェードアウト */
+.fadeout-loader {
+    transition-property: opacity;
+    transition-delay: .9s;
+    transition-duration: .3s;
+    opacity: 0;
+    pointer-events: none;
+}
+/* ローディング画面 */
+#loader-bg {
+    background: #212121;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loader h3 {
+    color: #fff;
+    line-height: 1.4;
+    text-align: center;
+}
+#loader p img {
+    display: inline-block;
+}
